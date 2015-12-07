@@ -5,3 +5,4 @@ A simple, powerfull and lightweight Web Keylogger
 
 If all the processing is loaded in one single server page, becomes slow to process and the user will realize that something is wrong. Turns slow to use.
 
+##### Note: Created only with educational ends.
